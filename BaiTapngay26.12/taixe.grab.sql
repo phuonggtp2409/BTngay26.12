@@ -1,10 +1,21 @@
+-- SELECT * FROM grab.taixe;
+-- ALTER TABLE taixe
+-- ADD maPT varchar(25)
+-- SELECT * FROM grab.taixe;
+-- UPDATE taixe
+-- SET maPT = 'xemay1'
+-- WHERE maTaiXe = 'NV1'
+-- SELECT * FROM grab.taixe;
+-- UPDATE taixe
+-- SET maPT = 'xemay1'
+-- WHERE maTaixe = 'NV1'
+-- INSERT INTO taixe (maPT)
+-- VALUES ('xemay1'), ('xemay2'),('xemay3')
+-- SELECT * FROM grab.taixe;
+-- TRUNCATE taixe
+-- SELECT * FROM grab.taixe;
+-- INSERT INTO taixe (maTaiXe, tenTaixe, CCCD, SDT, maPT)
+-- VALUES ('NV1','Nguyen Van A','12345677','012345667','xemay1'), ('NV2','Nguyen Van B','12345688','012345666' ,'xemay2')
+-- ,('NV3','Nguyen Van C','12345699','012345669','xemay3')
 SELECT * FROM grab.taixe;
-INSERT INTO taixe (maTaixe, tenTaixe, CCCD, SDT)
-VALUES ('NV1', 'Nguyen Van A', '123456789', '012345678')
-SELECT * FROM grab.taixe;
-INSERT INTO taixe (maTaixe, tenTaixe, CCCD, SDT)
-VALUES ('NV2', 'Nguyen Van B', '123456780', '012345679')
-SELECT * FROM grab.taixe;
-INSERT INTO taixe (maTaixe, tenTaixe, CCCD, SDT)
-VALUES ('NV3', 'Nguyen Van C', '123456788', '012345670')
-SELECT * FROM grab.taixe;
+
